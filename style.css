@@ -142,9 +142,17 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 	letter-spacing: 0.2px;
 }
 
-.award { color: #d00000; font-weight: 600; }
-.oral { color: #d00000; font-weight: 600; }
-.position { font-size: 24px; }
+
+
+.award {
+    font-weight: normal;
+    color: red;
+}
+.oral {
+    font-weight: normal;
+    color: red;
+}
+.position { font-size: 22px; }
 
 #toggle { 
 	margin-bottom: 0.5em;  /* adds gap between the underline and first publication */
@@ -168,4 +176,12 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 .image-caption {
 	text-align: center;
 	margin-top: 15px !important; 
+}
+
+#preprints {
+    margin-bottom: 0.5em;
+}
+
+#preprints ~ p > a:first-child {
+    font-weight: 600;
 }
